@@ -1,0 +1,26 @@
+.main-header {
+  height: functions.toRem(72);
+  display: flex;
+  align-items: center;
+  box-shadow: 0px functions.toRem(2) functions.toRem(8) 0px
+    rgba(58, 58, 58, 0.23);
+  &__title {
+    padding: 0 functions.toRem(32);
+    h1 {
+      margin: 0;
+      font-size: functions.toRem(24);
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $logo-color;
+    height: 100%;
+    width: functions.toRem(72);
+    img {
+      width: functions.toRem(24);
+    }
+  }
+}

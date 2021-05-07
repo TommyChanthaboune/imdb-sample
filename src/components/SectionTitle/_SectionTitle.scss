@@ -1,0 +1,35 @@
+.section-title {
+  margin-bottom: functions.toRem(38);
+  h2 {
+    font-size: functions.toRem(28);
+    line-height: 1.2;
+    margin: 0;
+    span {
+      display: block;
+    }
+  }
+
+  &__section {
+    color: $section-header-color;
+  }
+
+  &__title {
+    font-size: functions.toRem(48);
+  }
+
+  &--highlight {
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: functions.toRem(32);
+      span {
+        display: inline;
+      }
+
+      .section-title__title {
+        font-size: functions.toRem(32);
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

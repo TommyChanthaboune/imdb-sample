@@ -1,12 +1,13 @@
 import { useQuery } from '@apollo/react-hooks';
-import { gql } from 'apollo-boost';
+import { gql } from '@apollo/client';
 
 /**
  * NOTE: Due to limitations with JSON-server,
  * this query does not fully reflect each field and
  * associated type, but will return the full set of data
  * regardless.
- **/
+ * */
+
 const ALL_MOVIES_QUERY = gql`
   query allMovies {
     allMovies {

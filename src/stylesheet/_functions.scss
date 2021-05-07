@@ -1,0 +1,16 @@
+/// converts pixel values to rem
+/// @param {number} $size
+/// @return {number}
+
+@function toRem($size) {
+  @return $size / 16 * 1rem;
+}
+
+/// add opacity to defined colors
+/// @param {string} $color
+/// @param {number} $value
+/// @return {rgba}
+
+@function opacity($color, $value) {
+  @return rgba($color, $value);
+}

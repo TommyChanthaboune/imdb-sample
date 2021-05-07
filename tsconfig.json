@@ -1,0 +1,22 @@
+{
+  "baseUrl": "src",
+  "include": ["src"],
+  "exclude": ["./eslintrc.js"],
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  }
+}

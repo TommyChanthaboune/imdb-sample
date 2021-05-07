@@ -1,0 +1,81 @@
+@use "sass:map";
+@use './config' as *;
+@use './functions';
+
+@forward './config';
+@forward './functions';
+
+@import '~sanitize.css';
+@import '~sanitize.css/forms.css';
+@import '~sanitize.css/typography.css';
+
+///
+/// Base Styles
+///
+
+[data-reactroot] {
+  height: 100% !important;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: $site-background;
+  color: $font-color;
+  font-family: $font-family;
+}
+
+body {
+  min-width: 320px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+section {
+  padding: 1rem;
+}
+
+///
+/// Components
+///
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.hero {
+  background-image: url('../assets/Dots.svg');
+  background-position: center;
+}
+
+section.genre {
+  background-color: $greyshie;
+}
+
+@import '../pages/Home/Home';
+@import '../components/MainHeader/MainHeader';
+@import '../components/SectionTitle/SectionTitle';
+
+@media only screen and (min-width: map.get($breakpoints, 'medium')) {
+  section {
+    padding: functions.toRem(48) functions.toRem(69);
+  }
+}
