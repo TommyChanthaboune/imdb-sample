@@ -1,0 +1,74 @@
+.poster-container {
+  width: 80%;
+  padding: 1rem;
+}
+
+.poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  img {
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+  }
+
+  &__genre {
+    color: $grey-genre;
+    font-size: functions.toRem(14);
+    font-weight: normal;
+    line-height: functions.toRem(16);
+    margin: 0.5rem 0 1rem;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    h3 {
+      flex-basis: 75%;
+      margin: 0;
+      line-height: 1.2;
+    }
+    .rating {
+      flex-basis: 29%;
+    }
+  }
+}
+
+@include medium-screens {
+  .poster-container {
+    width: 262px;
+  }
+}
+
+@include large-screens {
+  .poster-container {
+    transition: background-color $transition-default-time,
+      box-shadow $transition-default-time;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    .button {
+      transition: background-color $transition-default-time,
+        color $transition-default-time;
+      background-color: transparent;
+      color: transparent;
+    }
+
+    &:hover {
+      transition: background-color $transition-default-time,
+        box-shadow $transition-default-time;
+      background-color: #ffffff;
+      border-radius: 4px;
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+
+      .button {
+        transition: background-color $transition-default-time,
+          color $transition-default-time;
+        background-color: $button-background;
+        color: $button-color;
+      }
+    }
+  }
+}

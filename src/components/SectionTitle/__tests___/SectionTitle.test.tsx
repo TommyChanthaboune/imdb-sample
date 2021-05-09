@@ -1,13 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import HighlightHeader from '../SectionTitle';
+import { SectionTitle } from '../SectionTitle';
 
-const getComponent = (section = 'Movie', title = 'Top 5', highlight = false) =>
-  render(
-    <HighlightHeader section={section} title={title} highlight={highlight} />
-  );
+const getComponent = (section = 'Movie', title = 'Top 5', inline = false) =>
+  render(<SectionTitle section={section} title={title} inline={inline} />);
 
-describe('Highlight Header', () => {
+describe('SectionTitle', () => {
   it('should render correctly', () => {
     const component = getComponent();
     expect(component).toMatchSnapshot();

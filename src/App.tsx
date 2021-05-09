@@ -1,7 +1,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Home from './pages/Home/Home';
-import MainHeader from './components/MainHeader/MainHeader';
+import { Home } from './pages/Home/Home';
+import { MainHeader } from './components/MainHeader/MainHeader';
+import { Browse } from './pages/Browse/Browse';
+import { Detail } from './pages/Detail/Detail';
+import { NotFound } from './pages/NotFound/NotFound';
+
 /**
  * This function is used to simulate performance benchmarking.
  *
@@ -28,9 +32,14 @@ export const trackPageCompletedLoading = () => {
 const App = () => (
   <>
     <MainHeader />
-    <Switch>
-      <Route path="/" exact component={Home} />
-    </Switch>
+    <main>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/browse" exact component={Browse} />
+        <Route path="/detail" exact component={Detail} />
+        <Route component={NotFound} />
+      </Switch>
+    </main>
   </>
 );
 

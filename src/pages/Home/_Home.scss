@@ -2,3 +2,114 @@
   min-height: 100vh;
   padding: 56px;
 }
+
+.posters {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.genres {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+
+  &__links {
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    height: 202px;
+    width: 100%;
+    margin: 0 0 1rem 0;
+
+    background: linear-gradient(
+      -225deg,
+      rgb(154, 76, 237) 0%,
+      rgb(134, 127, 239) 46%,
+      rgb(127, 199, 242) 100%
+    );
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      text-decoration: none;
+      font-size: 32px;
+      font-weight: 900;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.section-genre {
+  background-color: $greyshie;
+}
+
+
+.section-browse-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/Dots.svg');
+  background-position: bottom left;
+  margin-bottom: 5rem;
+  a {
+    color: $dark-charcoal;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  span img {
+    margin: 0.5rem;
+    width: 2rem;
+    transform: rotate(180deg);
+  }
+}
+
+@include medium-screens {
+  .genres {
+    &__links {
+      width: calc(50% - 2rem);
+    }
+  }
+}
+
+@include large-screens {
+  .genres {
+    justify-content: space-between;
+    &__links {
+      width: calc(25% - 1rem);
+      transition: transform $transition-default-time;
+      transform: translate3d(0, 0, 0px);
+
+      &:hover {
+        transition: transform $transition-default-time;
+        transform: translate3d(0%, -5%, 0px);
+      }
+    }
+  }
+}
+
+@include xlarge-screens {
+  .genres {
+    flex-flow: row nowrap;
+    &__links {
+      width: calc(25% - 1rem);
+    }
+  }
+
+  .posters {
+    justify-content: space-between;
+    flex-flow: row nowrap;
+  }
+}
+
+@include xxlarge-screens {
+  .genres {
+    &__links {
+      width: functions.toRem(312);
+    }
+  }
+}

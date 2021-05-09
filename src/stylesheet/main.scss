@@ -1,9 +1,11 @@
 @use "sass:map";
 @use './config' as *;
 @use './functions';
+@use './mixins' as *;
 
 @forward './config';
 @forward './functions';
+@forward './mixins';
 
 @import '~sanitize.css';
 @import '~sanitize.css/forms.css';
@@ -47,8 +49,72 @@ h6 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: functions.toRem(24);
+  line-height: functions.toRem(26);
+}
+
 section {
   padding: 1rem;
+}
+
+button,
+.button {
+  border-radius: functions.toRem(4);
+  padding: 0.75rem 0.5rem;
+  background-color: $button-background;
+  text-decoration: none;
+  color: $button-color;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  font-size: functions.toRem(14);
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover;
+  }
+
+  &--block {
+    display: flex;
+  }
+
+  &--text {
+    background: none;
+    border: none;
+    &:hover {
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  }
+}
+
+a {
+  color: $blue;
+}
+
+label {
+  color: $label-color;
+  font-size: functions.toRem(14);
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 1rem;
+  min-width: 164px;
+  border-radius: functions.toRem(4);
+  font-size: functions.toRem(14);
+  padding: functions.toRem(14) 1rem;
+  background: $white;
+  &:not([multiple]):not([size]) {
+    background-image: url('../assets/Chevron.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1rem) center;
+  }
 }
 
 ///
@@ -57,24 +123,48 @@ section {
 
 .section-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: functions.toRem(38);
+  &__main {
+    display: flex;
+  }
+
+  &__back {
+    padding: 1rem;
+    margin-left: -1rem;
+  }
 }
 
-section.hero {
+.section-hero {
   background-image: url('../assets/Dots.svg');
-  background-position: center;
-}
-
-section.genre {
-  background-color: $greyshie;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 40%;
 }
 
 @import '../pages/Home/Home';
+@import '../pages/NotFound/NotFound';
+@import '../pages/Detail/Detail';
 @import '../components/MainHeader/MainHeader';
 @import '../components/SectionTitle/SectionTitle';
+@import '../components/Poster/Poster';
+@import '../components/Rating/Rating';
+@import '../components/Movies/Movies';
+@import '../components/Cast/Cast';
 
-@media only screen and (min-width: map.get($breakpoints, 'medium')) {
+///
+/// Media Queries
+///
+
+@include medium-screens {
+  .section-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@include xlarge-screens {
   section {
     padding: functions.toRem(48) functions.toRem(69);
   }

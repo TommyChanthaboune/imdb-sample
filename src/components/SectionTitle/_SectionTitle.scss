@@ -1,5 +1,4 @@
 .section-title {
-  margin-bottom: functions.toRem(38);
   h2 {
     font-size: functions.toRem(28);
     line-height: 1.2;
@@ -17,7 +16,7 @@
     font-size: functions.toRem(48);
   }
 
-  &--highlight {
+  &--inline {
     display: flex;
     align-items: center;
     h2 {

@@ -1,5 +1,6 @@
 import { useQuery } from '@apollo/react-hooks';
-import { gql } from '@apollo/client';
+import { gql, ApolloError } from '@apollo/client';
+import { IMovie } from '../interfaces';
 
 /**
  * NOTE: Due to limitations with JSON-server,
@@ -12,25 +13,20 @@ const ALL_MOVIES_QUERY = gql`
   query allMovies {
     allMovies {
       id
-      originalLanguage
-      originalTitle
-      overview
-      popularity
-      posterPath
-      releaseDate
       title
-      voteAverage
       voteCount
-      budget
-      runtime
+      voteAverage
+      posterPath
       genres
-      cast
-      director
     }
   }
 `;
 
-const useAllUnreadCountQuery = () => {
+export const useAllMoviesQuery = (): {
+  data: IMovie[];
+  error: ApolloError | undefined;
+  loading: Boolean;
+} => {
   const { data, loading, error } = useQuery(ALL_MOVIES_QUERY, {
     fetchPolicy: 'cache-and-network'
   });
@@ -43,5 +39,3 @@ const useAllUnreadCountQuery = () => {
     loading
   };
 };
-
-export default useAllUnreadCountQuery;

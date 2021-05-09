@@ -1,0 +1,19 @@
+.movies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  min-height: 852px;
+  .poster {
+    margin: 0 1rem 1rem 0;
+  }
+}
+
+@include xlarge-screens {
+  .movies {
+    justify-content: flex-start;
+
+    .poster {
+      flex-basis: calc(20% - 1rem);
+    }
+  }
+}

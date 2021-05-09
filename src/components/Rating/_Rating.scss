@@ -1,0 +1,30 @@
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 0 0.3rem;
+  img {
+    height: 1rem;
+    width: 1rem;
+  }
+  &__score {
+    margin-left: 0.3rem;
+    color: $blue;
+    font-weight: 500;
+  }
+
+  &--with-total {
+    justify-content: flex-start;
+    img {
+      height: 2rem;
+      width: 2rem;
+    }
+    .rating__score {
+      font-size: 2rem;
+      .rating__total {
+        font-size: 1rem;
+        color: $gray;
+      }
+    }
+  }
+}

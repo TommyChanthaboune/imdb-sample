@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Highlight Header should render correctly 1`] = `
+exports[`SectionTitle should render correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -95,13 +95,13 @@ Object {
 }
 `;
 
-exports[`Highlight Header should render correctly when in highlight 1`] = `
+exports[`SectionTitle should render correctly when in highlight 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="section-title section-title--highlight"
+        class="section-title section-title--inline"
       >
         <h2>
           <span
@@ -121,7 +121,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="section-title section-title--highlight"
+      class="section-title section-title--inline"
     >
       <h2>
         <span
