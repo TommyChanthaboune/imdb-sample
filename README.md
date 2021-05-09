@@ -10,6 +10,7 @@
 - There are unit and snapshot tests with react-testing-library and jest.
 - Some typography elements and spacing were estimated but I tried my best to get it as close to the Abstract preview as possible - a SketchApp file would of been nice too.
 - I wish I could of shown off more Context and Reducer related things. However the app was simple enough that prop drilling was sufficient.
+- Decent lighthouse scores with all things considered.
 - I feel like I can do more to the app definitely. However I think I've accomplished enough to start and facilitate conversation going forward.
 ## Required Functions
 
@@ -42,8 +43,11 @@
 - Add functionality where clicking on an image preview in the first section expands the image in a modal or light box.
     - Instead, I thought it would be the better experience if the user clicked on the image and it just directed them to the movie detail page. I think this functionality would be suited better in the detail view.
 - ✅ (kinda) Use the provided tracking functions (currently located in App.js) to track when the page initially loads and has completely finished rendering. Each function should be called a maximum of 1 time per page load.
+  - It's not exactly what you asked for however I did include React's native Profiler to get timing metrics. I found this task hard to do with functional components and without proper lifecycle events.
 - ✅ Add the ability to add comments to the details view page of the movie. Users should be able to view and create comments (bonus points if you add in updating and deleting as well). There is a one-to-many association between movies and comments. Follow the json-server \* documentation for querying and creating associations.
 - Add any custom feature you think would benefit the end user. Document your decision making process.
+  - Small microanimations here and there
+  - CTA on the homepage to see more movies
 
 
 ## Total Time Spent
