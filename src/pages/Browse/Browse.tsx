@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import { useHistory, useLocation, Link } from 'react-router-dom';
 import queryString from 'query-string';
 import { SortOptions } from '../../enums';
@@ -7,7 +7,7 @@ import { SectionTitle } from '../../components/SectionTitle/SectionTitle';
 import { Movies } from '../../components/Movies/Movies';
 import BackArrow from '../../assets/BackArrow.svg';
 
-export const Browse = () => {
+export const Browse: FC = () => {
   const history = useHistory();
   const location = useLocation();
   const searchParams = queryString.parse(location.search);

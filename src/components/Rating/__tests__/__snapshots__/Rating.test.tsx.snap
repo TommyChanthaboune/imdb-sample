@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="rating"
+        class="rating "
       >
         <img
           alt="9.7 Rating"
@@ -23,7 +23,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="rating"
+      class="rating "
     >
       <img
         alt="9.7 Rating"

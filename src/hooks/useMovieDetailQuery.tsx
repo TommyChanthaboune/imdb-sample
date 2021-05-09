@@ -38,7 +38,7 @@ export const useMovieDetailQuery = (id: string): IMovieDetailQueryReturn => {
       id
     }
   });
-
+  
   const movie = data?.Movie ?? {};
 
   return {

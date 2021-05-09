@@ -1,0 +1,125 @@
+
+
+[
+  {
+    "id": "577922",
+    "title": "Tenet",
+    "voteCount": "4221",
+    "voteAverage": "7.3",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": "737568",
+    "title": "The Doorman",
+    "voteCount": "143",
+    "voteAverage": "6",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//pklyUbh4k1DbHdnsOMASyw7C6NH.jpg",
+    "genres": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "529203",
+    "title": "The Croods: A New Age",
+    "voteCount": "1358",
+    "voteAverage": "7.7",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+    "genres": [
+      "Family",
+      "Adventure",
+      "Fantasy",
+      "Animation"
+    ]
+  },
+  {
+    "id": "531499",
+    "title": "The Tax Collector",
+    "voteCount": "239",
+    "voteAverage": "5.8",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//3eg0kGC2Xh0vhydJHO37Sp4cmMt.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "664767",
+    "title": "Mortal Kombat Legends: Scorpion's Revenge",
+    "voteCount": "731",
+    "voteAverage": "8.4",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//4VlXER3FImHeFuUjBShFamhIp9M.jpg",
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Animation"
+    ]
+  },
+  {
+    "id": "38700",
+    "title": "Bad Boys for Life",
+    "voteCount": "5905",
+    "voteAverage": "7.2",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
+    "genres": [
+      "Thriller",
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "631939",
+    "title": "Legionnaire's Trail",
+    "voteCount": "36",
+    "voteAverage": "6.4",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//6ssoBXQOxNhrsGJoM6Tcvm57V79.jpg",
+    "genres": [
+      "History",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "545609",
+    "title": "Extraction",
+    "voteCount": "3505",
+    "voteAverage": "7.4",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//wlfDxbGEsW58vGhFljKkcR5IxDj.jpg",
+    "genres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "512200",
+    "title": "Jumanji: The Next Level",
+    "voteCount": "5414",
+    "voteAverage": "7",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "124905",
+    "title": "Godzilla",
+    "voteCount": "6505",
+    "voteAverage": "6.2",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//iBZhbCVhLpyxAfW1B8ePUxjScrx.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "Science Fiction"
+    ]
+  }
+]

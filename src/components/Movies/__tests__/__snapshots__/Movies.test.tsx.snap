@@ -1,53 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Main Header should render correctly 1`] = `
+exports[`Movie Page should render correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <header
-        class="main-header"
+      <div
+        class="movies"
       >
-        <a
-          class="main-header__logo"
-          href="/"
-        >
-          <img
-            alt="Reel Cinema Logo"
-            src="Logo.svg"
-          />
-        </a>
         <div
-          class="main-header__title"
+          class="poster"
         >
-          <h1>
-            Reel Cinema
-          </h1>
+          <a
+            href="/detail?movie=384018"
+          >
+            <img
+              alt="Fast & Furious Presents: Hobbs & Shaw"
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg"
+            />
+          </a>
         </div>
-      </header>
+        <div
+          class="poster"
+        >
+          <a
+            href="/detail?movie=582306"
+          >
+            <img
+              alt="Assassin 33 A.D."
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//8jDvtdH327I8TgX3UPdkAsZF1dA.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="poster"
+        >
+          <a
+            href="/detail?movie=777350"
+          >
+            <img
+              alt="Dory's Reef Cam"
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//mMWLGu9pFymqipN8yvISHsAaj72.jpg"
+            />
+          </a>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <header
-      class="main-header"
+    <div
+      class="movies"
     >
-      <a
-        class="main-header__logo"
-        href="/"
-      >
-        <img
-          alt="Reel Cinema Logo"
-          src="Logo.svg"
-        />
-      </a>
       <div
-        class="main-header__title"
+        class="poster"
       >
-        <h1>
-          Reel Cinema
-        </h1>
+        <a
+          href="/detail?movie=384018"
+        >
+          <img
+            alt="Fast & Furious Presents: Hobbs & Shaw"
+            src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg"
+          />
+        </a>
       </div>
-    </header>
+      <div
+        class="poster"
+      >
+        <a
+          href="/detail?movie=582306"
+        >
+          <img
+            alt="Assassin 33 A.D."
+            src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//8jDvtdH327I8TgX3UPdkAsZF1dA.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="poster"
+      >
+        <a
+          href="/detail?movie=777350"
+        >
+          <img
+            alt="Dory's Reef Cam"
+            src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//mMWLGu9pFymqipN8yvISHsAaj72.jpg"
+          />
+        </a>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

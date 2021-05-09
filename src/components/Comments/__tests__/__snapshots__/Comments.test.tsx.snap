@@ -1,0 +1,876 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comments should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="comments"
+      >
+        <h4>
+          Comments (
+          9
+          )
+        </h4>
+        <div
+          class="comments__existing"
+        >
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="author a. komm"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                author a. komm
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  Hey
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  This is a comment
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="jr smith"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                jr smith
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  Hey another
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  This is another comment
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="author a. komm"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                author a. komm
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  Hey again
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  This is a third comment
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="Jon Dough"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                Jon Dough
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  Hello There
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  This is a short comment
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="jj"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                jj
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  dean
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  12345
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="this is a placeholder"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                this is a placeholder
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  subject
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  lorem ipsum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="another comment"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                another comment
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  comment again
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  hello
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="another comment"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                another comment
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  comment again
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  hello
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="comment"
+          >
+            <div
+              class="comment__profile"
+            >
+              <div
+                class="comment__avatar"
+              >
+                <img
+                  alt="author a. komm"
+                  src="Avatar.svg"
+                />
+              </div>
+              <p
+                class="comment__author"
+              >
+                author a. komm
+              </p>
+            </div>
+            <div
+              class="comment__body"
+            >
+              <div
+                class="comment__content"
+              >
+                <p
+                  class="comment__title"
+                >
+                  Hey again
+                </p>
+                <p
+                  class="comment__data"
+                >
+                  This is a third comment
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comments__new"
+        >
+          <h4>
+            New Comment
+          </h4>
+          <form>
+            <label
+              for="comment-author"
+            >
+              Name
+              <input
+                id="comment-author"
+                type="text"
+              />
+            </label>
+            <label
+              for="comment-subject"
+            >
+              Subject
+              <input
+                id="comment-subject"
+                type="text"
+              />
+            </label>
+            <label
+              for="comment-data"
+            >
+              Comment
+              <textarea
+                cols="40"
+                id="comment-data"
+                rows="4"
+              />
+            </label>
+            <button
+              type="button"
+            >
+              Leave Comment
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="comments"
+    >
+      <h4>
+        Comments (
+        9
+        )
+      </h4>
+      <div
+        class="comments__existing"
+      >
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="author a. komm"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              author a. komm
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                Hey
+              </p>
+              <p
+                class="comment__data"
+              >
+                This is a comment
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="jr smith"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              jr smith
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                Hey another
+              </p>
+              <p
+                class="comment__data"
+              >
+                This is another comment
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="author a. komm"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              author a. komm
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                Hey again
+              </p>
+              <p
+                class="comment__data"
+              >
+                This is a third comment
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="Jon Dough"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              Jon Dough
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                Hello There
+              </p>
+              <p
+                class="comment__data"
+              >
+                This is a short comment
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="jj"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              jj
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                dean
+              </p>
+              <p
+                class="comment__data"
+              >
+                12345
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="this is a placeholder"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              this is a placeholder
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                subject
+              </p>
+              <p
+                class="comment__data"
+              >
+                lorem ipsum
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="another comment"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              another comment
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                comment again
+              </p>
+              <p
+                class="comment__data"
+              >
+                hello
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="another comment"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              another comment
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                comment again
+              </p>
+              <p
+                class="comment__data"
+              >
+                hello
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="comment"
+        >
+          <div
+            class="comment__profile"
+          >
+            <div
+              class="comment__avatar"
+            >
+              <img
+                alt="author a. komm"
+                src="Avatar.svg"
+              />
+            </div>
+            <p
+              class="comment__author"
+            >
+              author a. komm
+            </p>
+          </div>
+          <div
+            class="comment__body"
+          >
+            <div
+              class="comment__content"
+            >
+              <p
+                class="comment__title"
+              >
+                Hey again
+              </p>
+              <p
+                class="comment__data"
+              >
+                This is a third comment
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="comments__new"
+      >
+        <h4>
+          New Comment
+        </h4>
+        <form>
+          <label
+            for="comment-author"
+          >
+            Name
+            <input
+              id="comment-author"
+              type="text"
+            />
+          </label>
+          <label
+            for="comment-subject"
+          >
+            Subject
+            <input
+              id="comment-subject"
+              type="text"
+            />
+          </label>
+          <label
+            for="comment-data"
+          >
+            Comment
+            <textarea
+              cols="40"
+              id="comment-data"
+              rows="4"
+            />
+          </label>
+          <button
+            type="button"
+          >
+            Leave Comment
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

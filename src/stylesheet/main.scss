@@ -100,6 +100,15 @@ label {
   font-size: functions.toRem(14);
 }
 
+input,
+textarea {
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 1rem;
+  padding: .5rem .75rem;
+  background-color: $white;
+}
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -142,6 +151,28 @@ select {
   background-size: 40%;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/Dots.svg');
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  margin-bottom: 5rem;
+  a {
+    color: $dark-charcoal;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  span img {
+    margin: 0.5rem;
+    width: 2rem;
+    transform: rotate(180deg);
+  }
+}
+
 @import '../pages/Home/Home';
 @import '../pages/NotFound/NotFound';
 @import '../pages/Detail/Detail';
@@ -151,6 +182,7 @@ select {
 @import '../components/Rating/Rating';
 @import '../components/Movies/Movies';
 @import '../components/Cast/Cast';
+@import '../components/Comments/Comments';
 
 ///
 /// Media Queries

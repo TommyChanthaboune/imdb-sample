@@ -4,7 +4,7 @@ import { gql, ApolloError } from '@apollo/client';
 import { IMovieSort, IPaging, IFilterConditons } from '../interfaces';
 import { SortOptions } from '../enums';
 
-interface IMovieQueryReturn {
+export interface IMovieQueryReturn {
   data: IMovieSort[];
   error: ApolloError | undefined;
   loading: Boolean;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { FC, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { parseOptions } from '../../helpers';
 import { useAllMoviesQuery } from '../../hooks';
@@ -8,7 +8,7 @@ import { TopFiveSection } from './TopFiveSection';
 import { Movies } from '../../components/Movies/Movies';
 import BackArrow from '../../assets/BackArrow.svg';
 
-export const Home = () => {
+export const Home: FC = () => {
   const { data, loading } = useAllMoviesQuery();
   const [sortField, setSortField] = useState<SortOptions>(0);
 
@@ -69,7 +69,7 @@ export const Home = () => {
         </div>
         <Movies sortBy={sortField} paging={{ page: 1 }} />
       </section>
-      <section className="section-browse-all">
+      <section className="footer">
         <Link to="/browse">
           All Movies{' '}
           <span aria-hidden>

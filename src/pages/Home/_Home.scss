@@ -46,28 +46,6 @@
   background-color: $greyshie;
 }
 
-
-.section-browse-all {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('../../assets/Dots.svg');
-  background-position: bottom left;
-  margin-bottom: 5rem;
-  a {
-    color: $dark-charcoal;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  span img {
-    margin: 0.5rem;
-    width: 2rem;
-    transform: rotate(180deg);
-  }
-}
-
 @include medium-screens {
   .genres {
     &__links {

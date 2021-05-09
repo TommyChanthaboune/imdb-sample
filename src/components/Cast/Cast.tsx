@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Avatar from '../../assets/Avatar.svg';
 
 interface ICast {
@@ -11,10 +12,10 @@ export const Cast: FC<ICast> = ({ portraitPath, name, character }) => (
   <div className="cast">
     <div className="cast__portrait">
       {portraitPath ? (
-        <img src={portraitPath} alt={name} />
+        <LazyLoadImage src={portraitPath} alt={name} />
       ) : (
         <div className="cast__placeholder">
-          <img src={Avatar} alt={name} />
+          <LazyLoadImage src={Avatar} alt={name} />
         </div>
       )}
     </div>

@@ -1,0 +1,586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopFiveSection should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="posters"
+      >
+        <div
+          class="poster-container"
+        >
+          <div
+            class="poster"
+          >
+            <a
+              href="/detail?movie=664767"
+            >
+              <img
+                alt="Mortal Kombat Legends: Scorpion's Revenge"
+                src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//4VlXER3FImHeFuUjBShFamhIp9M.jpg"
+              />
+            </a>
+          </div>
+          <div
+            class="poster__title"
+          >
+            <h3>
+              Mortal Kombat Legends: Scorpion's Revenge
+            </h3>
+            <div
+              class="rating "
+            >
+              <img
+                alt="8.4 Rating"
+                src="Star.svg"
+              />
+              <span
+                class="rating__score"
+              >
+                8.4
+                 
+              </span>
+            </div>
+          </div>
+          <p
+            class="poster__genre"
+          >
+            Fantasy, 
+            Action, 
+            Adventure, 
+            Animation 
+          </p>
+          <a
+            class="button button--block"
+            href="/detail?movie=664767"
+            tabindex="-1"
+          >
+            View Details
+          </a>
+        </div>
+        <div
+          class="poster-container"
+        >
+          <div
+            class="poster"
+          >
+            <a
+              href="/detail?movie=529203"
+            >
+              <img
+                alt="The Croods: A New Age"
+                src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg"
+              />
+            </a>
+          </div>
+          <div
+            class="poster__title"
+          >
+            <h3>
+              The Croods: A New Age
+            </h3>
+            <div
+              class="rating "
+            >
+              <img
+                alt="7.7 Rating"
+                src="Star.svg"
+              />
+              <span
+                class="rating__score"
+              >
+                7.7
+                 
+              </span>
+            </div>
+          </div>
+          <p
+            class="poster__genre"
+          >
+            Family, 
+            Adventure, 
+            Fantasy, 
+            Animation 
+          </p>
+          <a
+            class="button button--block"
+            href="/detail?movie=529203"
+            tabindex="-1"
+          >
+            View Details
+          </a>
+        </div>
+        <div
+          class="poster-container"
+        >
+          <div
+            class="poster"
+          >
+            <a
+              href="/detail?movie=545609"
+            >
+              <img
+                alt="Extraction"
+                src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//wlfDxbGEsW58vGhFljKkcR5IxDj.jpg"
+              />
+            </a>
+          </div>
+          <div
+            class="poster__title"
+          >
+            <h3>
+              Extraction
+            </h3>
+            <div
+              class="rating "
+            >
+              <img
+                alt="7.4 Rating"
+                src="Star.svg"
+              />
+              <span
+                class="rating__score"
+              >
+                7.4
+                 
+              </span>
+            </div>
+          </div>
+          <p
+            class="poster__genre"
+          >
+            Drama, 
+            Action, 
+            Thriller 
+          </p>
+          <a
+            class="button button--block"
+            href="/detail?movie=545609"
+            tabindex="-1"
+          >
+            View Details
+          </a>
+        </div>
+        <div
+          class="poster-container"
+        >
+          <div
+            class="poster"
+          >
+            <a
+              href="/detail?movie=577922"
+            >
+              <img
+                alt="Tenet"
+                src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//k68nPLbIST6NP96JmTxmZijEvCA.jpg"
+              />
+            </a>
+          </div>
+          <div
+            class="poster__title"
+          >
+            <h3>
+              Tenet
+            </h3>
+            <div
+              class="rating "
+            >
+              <img
+                alt="7.3 Rating"
+                src="Star.svg"
+              />
+              <span
+                class="rating__score"
+              >
+                7.3
+                 
+              </span>
+            </div>
+          </div>
+          <p
+            class="poster__genre"
+          >
+            Action, 
+            Thriller, 
+            Science Fiction 
+          </p>
+          <a
+            class="button button--block"
+            href="/detail?movie=577922"
+            tabindex="-1"
+          >
+            View Details
+          </a>
+        </div>
+        <div
+          class="poster-container"
+        >
+          <div
+            class="poster"
+          >
+            <a
+              href="/detail?movie=38700"
+            >
+              <img
+                alt="Bad Boys for Life"
+                src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
+              />
+            </a>
+          </div>
+          <div
+            class="poster__title"
+          >
+            <h3>
+              Bad Boys for Life
+            </h3>
+            <div
+              class="rating "
+            >
+              <img
+                alt="7.2 Rating"
+                src="Star.svg"
+              />
+              <span
+                class="rating__score"
+              >
+                7.2
+                 
+              </span>
+            </div>
+          </div>
+          <p
+            class="poster__genre"
+          >
+            Thriller, 
+            Action, 
+            Crime 
+          </p>
+          <a
+            class="button button--block"
+            href="/detail?movie=38700"
+            tabindex="-1"
+          >
+            View Details
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="posters"
+    >
+      <div
+        class="poster-container"
+      >
+        <div
+          class="poster"
+        >
+          <a
+            href="/detail?movie=664767"
+          >
+            <img
+              alt="Mortal Kombat Legends: Scorpion's Revenge"
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//4VlXER3FImHeFuUjBShFamhIp9M.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="poster__title"
+        >
+          <h3>
+            Mortal Kombat Legends: Scorpion's Revenge
+          </h3>
+          <div
+            class="rating "
+          >
+            <img
+              alt="8.4 Rating"
+              src="Star.svg"
+            />
+            <span
+              class="rating__score"
+            >
+              8.4
+               
+            </span>
+          </div>
+        </div>
+        <p
+          class="poster__genre"
+        >
+          Fantasy, 
+          Action, 
+          Adventure, 
+          Animation 
+        </p>
+        <a
+          class="button button--block"
+          href="/detail?movie=664767"
+          tabindex="-1"
+        >
+          View Details
+        </a>
+      </div>
+      <div
+        class="poster-container"
+      >
+        <div
+          class="poster"
+        >
+          <a
+            href="/detail?movie=529203"
+          >
+            <img
+              alt="The Croods: A New Age"
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="poster__title"
+        >
+          <h3>
+            The Croods: A New Age
+          </h3>
+          <div
+            class="rating "
+          >
+            <img
+              alt="7.7 Rating"
+              src="Star.svg"
+            />
+            <span
+              class="rating__score"
+            >
+              7.7
+               
+            </span>
+          </div>
+        </div>
+        <p
+          class="poster__genre"
+        >
+          Family, 
+          Adventure, 
+          Fantasy, 
+          Animation 
+        </p>
+        <a
+          class="button button--block"
+          href="/detail?movie=529203"
+          tabindex="-1"
+        >
+          View Details
+        </a>
+      </div>
+      <div
+        class="poster-container"
+      >
+        <div
+          class="poster"
+        >
+          <a
+            href="/detail?movie=545609"
+          >
+            <img
+              alt="Extraction"
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//wlfDxbGEsW58vGhFljKkcR5IxDj.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="poster__title"
+        >
+          <h3>
+            Extraction
+          </h3>
+          <div
+            class="rating "
+          >
+            <img
+              alt="7.4 Rating"
+              src="Star.svg"
+            />
+            <span
+              class="rating__score"
+            >
+              7.4
+               
+            </span>
+          </div>
+        </div>
+        <p
+          class="poster__genre"
+        >
+          Drama, 
+          Action, 
+          Thriller 
+        </p>
+        <a
+          class="button button--block"
+          href="/detail?movie=545609"
+          tabindex="-1"
+        >
+          View Details
+        </a>
+      </div>
+      <div
+        class="poster-container"
+      >
+        <div
+          class="poster"
+        >
+          <a
+            href="/detail?movie=577922"
+          >
+            <img
+              alt="Tenet"
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//k68nPLbIST6NP96JmTxmZijEvCA.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="poster__title"
+        >
+          <h3>
+            Tenet
+          </h3>
+          <div
+            class="rating "
+          >
+            <img
+              alt="7.3 Rating"
+              src="Star.svg"
+            />
+            <span
+              class="rating__score"
+            >
+              7.3
+               
+            </span>
+          </div>
+        </div>
+        <p
+          class="poster__genre"
+        >
+          Action, 
+          Thriller, 
+          Science Fiction 
+        </p>
+        <a
+          class="button button--block"
+          href="/detail?movie=577922"
+          tabindex="-1"
+        >
+          View Details
+        </a>
+      </div>
+      <div
+        class="poster-container"
+      >
+        <div
+          class="poster"
+        >
+          <a
+            href="/detail?movie=38700"
+          >
+            <img
+              alt="Bad Boys for Life"
+              src="https://image.tmdb.org/t/p/w300_and_h450_bestv2//y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="poster__title"
+        >
+          <h3>
+            Bad Boys for Life
+          </h3>
+          <div
+            class="rating "
+          >
+            <img
+              alt="7.2 Rating"
+              src="Star.svg"
+            />
+            <span
+              class="rating__score"
+            >
+              7.2
+               
+            </span>
+          </div>
+        </div>
+        <p
+          class="poster__genre"
+        >
+          Thriller, 
+          Action, 
+          Crime 
+        </p>
+        <a
+          class="button button--block"
+          href="/detail?movie=38700"
+          tabindex="-1"
+        >
+          View Details
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

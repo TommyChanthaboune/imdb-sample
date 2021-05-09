@@ -1,0 +1,45 @@
+[
+  {
+    "id": "384018",
+    "title": "Fast & Furious Presents: Hobbs & Shaw",
+    "voteCount": "4567",
+    "voteAverage": "6.9",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "popularity": "548.425",
+    "budget": "200000000",
+    "runtime": "137",
+    "releaseDate": "2019-08-01"
+  },
+  {
+    "id": "582306",
+    "title": "Assassin 33 A.D.",
+    "voteCount": "19",
+    "voteAverage": "5.9",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//8jDvtdH327I8TgX3UPdkAsZF1dA.jpg",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure",
+      "Mystery",
+      "History",
+      "Fantasy"
+    ],
+    "popularity": "544.143",
+    "budget": "0",
+    "runtime": "108",
+    "releaseDate": "2020-01-24"
+  },
+  {
+    "id": "777350",
+    "title": "Dory's Reef Cam",
+    "voteCount": "54",
+    "voteAverage": "5.8",
+    "posterPath": "https://image.tmdb.org/t/p/w300_and_h450_bestv2//mMWLGu9pFymqipN8yvISHsAaj72.jpg",
+    "genres": ["Family", "Animation", "Comedy", "Adventure"],
+    "popularity": "514.4",
+    "budget": "0",
+    "runtime": "182",
+    "releaseDate": "2020-12-18"
+  }
+]

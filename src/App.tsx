@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable no-console */
+import React, { Profiler, ProfilerOnRenderCallback } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Home } from './pages/Home/Home';
 import { MainHeader } from './components/MainHeader/MainHeader';
@@ -6,31 +7,26 @@ import { Browse } from './pages/Browse/Browse';
 import { Detail } from './pages/Detail/Detail';
 import { NotFound } from './pages/NotFound/NotFound';
 
-/**
- * This function is used to simulate performance benchmarking.
- *
- * Should you choose to complete this step, this
- * function should be called only on first page load.
- * */
-
-export const trackInitialLoad = () => {
-  console.log('First page load');
-};
-
-/**
- * This function is used to simulate performance benchmarking.
- *
- * Should you choose to complete this step, this
- * function should be called only once the page has completely
- * loaded.
- * */
-
-export const trackPageCompletedLoading = () => {
-  console.log('Page done loading');
+const callback: ProfilerOnRenderCallback = (
+  id,
+  phase,
+  actualTime,
+  baseTime,
+  startTime,
+  commitTime
+) => {
+  // I know this circumvents the original ask but this is how I know to get timing metrics
+  if (phase === 'mount') {
+    console.debug('========================');
+    console.debug('Actual time:', Math.round(actualTime));
+    console.debug('Base time:', Math.round(baseTime));
+    console.debug('Start time:', Math.round(startTime));
+    console.debug('Commit time:', Math.round(commitTime));
+  }
 };
 
 const App = () => (
-  <>
+  <Profiler id="app" onRender={callback}>
     <MainHeader />
     <main>
       <Switch>
@@ -40,7 +36,7 @@ const App = () => (
         <Route component={NotFound} />
       </Switch>
     </main>
-  </>
+  </Profiler>
 );
 
 export default App;

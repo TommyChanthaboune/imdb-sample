@@ -45,3 +45,25 @@ export interface IMovieDetail extends IMovie, IMovieSort {
     profilePath: string;
   };
 }
+
+export interface IComment {
+  author: string;
+  title: string;
+  id: string;
+  data: string;
+}
+
+export interface IComments {
+  allComments: IComment[];
+}
+
+export interface IAddComment {
+  author: string;
+  title: string;
+  movie_id: string;
+  data: string;
+}
+
+export interface ICommentMeta {
+  _allCommentsMeta: { count: number };
+}
